@@ -14,7 +14,7 @@ It focuses on clean layouts, attractive UI, and responsive design.
 
 - 🏠 **Home** — Landing page with featured ice creams
 - 📖 **About** — About the brand and its story
-- 🛍️ **Shop** — Ice cream products and details
+- 🛍️ **Menu** — Ice cream products and details
 
 ## 🛠️ Technologies
 
