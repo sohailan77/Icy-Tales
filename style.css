@@ -14,11 +14,12 @@
   --text-secondary-color: #646464;
   --background-primary-color: linear-gradient(
     90deg,
-    #f6e8f6 0%,
-    #f7eef9 22%,
-    #f8f6fb 42%,
-    #f9fbfd 58%,
-    #faf8f6 78%,
+    #ceaece 0%,
+    #f7e9f7 10%,
+    #ffffff 20%,
+    #ffffff 60%,
+    #c8d2db 60%,
+    #faf8f6 80%,
     #faf3ef 100%
   );
   --background-header-color: linear-gradient(
@@ -34,14 +35,14 @@
   --button-secondary-color: #f83d8e;
   --button-primary-color-hover: #ffffff;
   --button-secondary-color-hover: ##ffffff;
-  --icons-bg-color: #f3ebf7;
+  --icons-bg-color: #e6ddea;
   --icons-bg-color-hover: #e2cfee;
   --footee-icons-bg-color: #ffffff26;
   --footer-icons-bg-color-hover: #ffffff1a;
   --shadow-sign-up: 0px 3px 16px 2px rgba(248, 61, 142, 0.24);
   --shadow-browse: 0px 3px 16px 2px rgba(104, 50, 146, 0.24);
   --shadow-read-more: 0px 3px 16px 2px rgba(248, 61, 142, 0.1);
-  --shadow-product-card-container: inset 0px 2px 50px 2px rgba(0, 0, 0, 0.04);
+  --shadow-product-card-container: inset 0px 2px 50px 2px rgba(0, 0, 0, 0.07);
   --font-family-primary: "Berkshire Swash", serif;
   --font-family-secondary: "Archivo", sans-serif;
   --footer-primary-text-color: #ffffff;
@@ -264,20 +265,21 @@ h1 .Small-welcome-text {
   width: min(50vw, 500px);
 }
 
-
 /* main  */
 /* best seller section  */
 
 .best-product-section {
   background-color: #ffffff;
   padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 /* heading text  */
 .best-seller-container .section2-heading {
   text-align: center;
 }
-.best-seller-container .section2-heading  h2{
+
+.best-seller-container .section2-heading h2 {
   font-family: var(--font-family-primary);
   font-size: 2.2rem;
   font-weight: 400;
@@ -285,12 +287,160 @@ h1 .Small-welcome-text {
   color: var(--text-primary-color);
 }
 
-.section2-heading  h2 span {
+.section2-heading h2 span {
   color: var(--brand-secondary-color);
 }
-.best-seller-container .section2-heading  p {
+
+/* heading paragraph  */
+.best-seller-container .section2-heading p {
   font-family: var(--font-family-secondary);
   font-size: 0.9rem;
   color: var(--text-secondary-color);
-
 }
+
+/* Best selling cards container */
+.best-Product-cards {
+  width: min(1120px, 100%);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 40px;
+  margin-top: 60px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+/* Best selling items cards */
+.best-Product-cards .product-card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  box-shadow: var(--shadow-product-card-container);
+  padding: 8px;
+  padding-bottom: 25px;
+}
+
+/* product image container */
+.best-Product-cards .product-image {
+  flex: 1;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.best-Product-cards .product1-image {
+  background-color: #fff3ea;
+  padding: 22px 5px;
+}
+
+.best-Product-cards .product2-image {
+  background-color: #f8ebe4;
+  padding: 18px 5px;
+}
+.best-Product-cards .product3-image {
+  background-color: #ffefd8;
+  padding: 20px 5px;
+}
+.best-Product-cards .product4-image {
+  background-color: #ffeff0;
+  padding: 20px 5px;
+}
+
+/* product image container image */
+.product1-image img {
+  width: 40%;
+}
+.product2-image img {
+  width: 50%;
+}
+.product3-image img {
+  width: 65%;
+}
+.product4-image img {
+  width: 70%;
+}
+
+/* product image container heart icon */
+.heart-icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+}
+
+.heart-icon i {
+  font-size: 0.9rem;
+  color: var(--icons-bg-color);
+}
+
+/* product details  */
+.product-details {
+  padding: 5px;
+  /* padding-bottom: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-name-rating {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-family: var(--font-family-secondary);
+}
+
+.product-name-rating span:first-child {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.product-name-rating span:last-child {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 24px;
+}
+
+.product-details p {
+  font-family: var(--font-family-secondary);
+  color: var(--text-secondary-color);
+  font-size: 0.7rem;
+  line-height: 14px;
+}
+
+.price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-cart .price {
+  color: var(--brand-secondary-color);
+  font-weight: 700;
+  font-family: var(--font-family-secondary);
+  font-size: 1.1rem;
+}
+
+.price-cart div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: #ffffff;
+  background-color: var(--brand-primary-color);
+}
+
+
+/* main promo banner section  */
