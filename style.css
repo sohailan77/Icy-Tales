@@ -198,18 +198,17 @@ header .navbar {
   background-size:
     min(15%, 300px) auto,
     100% auto;
-
   background-position:
     left top,
     center bottom;
 }
 .hero-container {
-  width: min(1120px, 100%);
+  width: min(1520px, 100%);
   display: flex;
   justify-content: center;
   margin-inline: auto;
   align-items: center;
-  gap: 10%;
+  gap: 8%;
 }
 
 .section1-heading {
@@ -276,6 +275,10 @@ h1 .Small-welcome-text {
   padding-bottom: 100px;
 }
 
+.best-seller-container {
+  width: min(1520px, 100%);
+  margin-inline: auto;
+}
 /* heading text  */
 .best-seller-container .section2-heading {
   text-align: center;
@@ -283,7 +286,7 @@ h1 .Small-welcome-text {
 
 .best-seller-container .section2-heading h2 {
   font-family: var(--font-family-primary);
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   font-weight: 400;
   line-height: 3.75rem;
   color: var(--text-primary-color);
@@ -296,7 +299,7 @@ h1 .Small-welcome-text {
 /* heading paragraph  */
 .best-seller-container .section2-heading p {
   font-family: var(--font-family-secondary);
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: var(--text-secondary-color);
 }
 
@@ -454,9 +457,9 @@ h1 .Small-welcome-text {
   justify-content: space-between;
   align-items: center;
   background-color: var(--brand-secondary-color);
-  width: min(1120px, 100%);
+  width: min(1520px, 100%);
   margin-inline: auto;
-  padding: 30px 80px 30px 20px;
+  padding: 30px 140px 30px 80px;
   background-image:
     url("Images/home-images/decore-image1.png"),
     url("Images/home-images/decore-image2.png");
@@ -471,7 +474,6 @@ h1 .Small-welcome-text {
     28% 14%,
     70% 75%;
 }
-
 
 /* offer product image  */
 .offer-product-left-image img {
@@ -526,4 +528,122 @@ h1 .Small-welcome-text {
   font-family: var(--font-family-secondary);
   font-size: 0.85em;
   color: #ffffff;
+}
+
+
+/* Reviews & feedbacks  */
+/* testimonial section */
+.testimonial-section {
+  width: min(1520px, 100%);
+  margin-inline: auto;
+  margin-bottom: 100px;
+}
+
+/* heading text  */
+.testimonial-title h3 {
+  text-align: center;
+  font-family: var(--font-family-primary);
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  color: var(--text-primary-color);
+}
+
+.testimonial-title h3 span {
+  color: var(--brand-secondary-color);
+}
+
+/* Customers reviews container  */
+.customers-reviews-container {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Images/home-images/quote-watermark-img.png);
+  background-repeat: no-repeat;
+  background-position:top 60px center;
+  background-size: 10% auto;
+  position: relative;
+}
+
+
+/* Customers reviews  */
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family-secondary);
+  margin-inline: 50px;
+}
+
+/* reviews text */
+.testimonial-card p {
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+.testimonial-card span:nth-child(2) {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--brand-secondary-color);
+  margin-bottom: 10px;
+}
+.testimonial-card span:nth-child(3) {
+  font-size: 0.75rem;
+  color: var(--text-secondary-color);
+  margin-bottom: 15px;
+}
+.testimonial-card span:nth-child(4) i {
+  font-size: 0.6rem;
+  color: var(--text-secondary-color);
+  margin-bottom: 15px;
+}
+
+/* customers images  */
+
+.left-customers-images  div,
+.right-customers-images div{
+  position: absolute;
+}
+
+.customers-reviews-container  img{
+    width: min(5vw, 84px);
+
+}
+
+.left-customers-images .img1 {
+  top: 30px;
+  left: 190px;
+}
+.left-customers-images .img2 {
+  top: 130px;
+  left: 300px;
+}
+.left-customers-images .img3 {
+  top: 220px;
+  left: 140px;
+}
+.left-customers-images .img4 {
+  top: 280px;
+  left: 360px;
+}
+
+.right-customers-images .img5 {
+  top: 0px;
+  right: 370px;
+}
+.right-customers-images .img6 {
+  top: 100px;
+  right: 170px;
+}
+.right-customers-images .img7 {
+  top: 150px;
+  right: 330px;
+}
+.right-customers-images .img8 {
+  top: 300px;
+  right: 420px;
 }
