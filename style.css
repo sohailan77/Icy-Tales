@@ -204,8 +204,10 @@ header .navbar {
     center bottom;
 }
 .hero-container {
+  width: min(1120px, 100%);
   display: flex;
   justify-content: center;
+  margin-inline: auto;
   align-items: center;
   gap: 10%;
 }
@@ -252,7 +254,7 @@ h1 .Small-welcome-text {
   color: #ffffff;
   font-size: 0.8rem;
   font-weight: 600;
-  border: 1.5px solid;
+  border: 1.5px;
   box-shadow: var(--shadow-browse);
   transition: all 0.1s ease-in-out;
 }
@@ -388,7 +390,6 @@ h1 .Small-welcome-text {
 /* product details  */
 .product-details {
   padding: 5px;
-  /* padding-bottom: 20px; */
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -442,5 +443,87 @@ h1 .Small-welcome-text {
   background-color: var(--brand-primary-color);
 }
 
-
 /* main promo banner section  */
+.promo-banner {
+  padding-bottom: 120px;
+}
+
+/* offer banner container  */
+.offer-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--brand-secondary-color);
+  width: min(1120px, 100%);
+  margin-inline: auto;
+  padding: 30px 80px 30px 20px;
+  background-image:
+    url("Images/home-images/decore-image1.png"),
+    url("Images/home-images/decore-image2.png");
+
+  background-repeat: no-repeat no-repeat;
+
+  background-size:
+    min(8%, 200px) auto,
+    min(5%, 200px) auto;
+
+  background-position:
+    28% 14%,
+    70% 75%;
+}
+
+
+/* offer product image  */
+.offer-product-left-image img {
+  width: min(36vw, 340px);
+}
+.offer-product-right-image img {
+  width: min(24vw, 280px);
+}
+
+/* offer text  */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center-content h3 {
+  font-family: var(--font-family-primary);
+  font-size: 5rem;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.center-content .offer-text {
+  font-family: var(--font-family-secondary);
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+.center-content span {
+  font-family: var(--font-family-secondary);
+  color: #ffd800;
+}
+
+.center-content button {
+  background-color: var(--brand-primary-color);
+  padding: 14px 25px;
+  border-radius: 40px;
+  font-family: var(--font-family-secondary);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1.5px;
+  box-shadow: var(--shadow-browse);
+  margin-bottom: 20px;
+}
+
+.center-content .code {
+  font-family: var(--font-family-secondary);
+  font-size: 0.85em;
+  color: #ffffff;
+}
