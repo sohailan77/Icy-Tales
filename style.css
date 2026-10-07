@@ -536,7 +536,8 @@ h1 .Small-welcome-text {
 .testimonial-section {
   width: min(1520px, 100%);
   margin-inline: auto;
-  margin-bottom: 100px;
+  padding-bottom: 200px;
+  
 }
 
 /* heading text  */
@@ -658,7 +659,6 @@ h1 .Small-welcome-text {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 160px;
   background-color: var(--brand-primary-color);
   background-image: url("Images/footer-left-image.png");
   background-repeat: no-repeat;
