@@ -409,6 +409,7 @@ h1 .Small-welcome-text {
 .product-name-rating span:first-child {
   font-weight: 700;
   font-size: 1rem;
+  color: var(--text-primary-color);
 }
 .product-name-rating span:last-child {
   font-weight: 500;
@@ -848,6 +849,7 @@ h1 .Small-welcome-text {
   background-color: var(--brand-secondary-color);
   text-decoration: none;
 }
+
 
 /* copyright section  */
 .copy-right-container {
