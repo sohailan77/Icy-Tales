@@ -166,7 +166,7 @@ header .navbar {
   color: #ffffff;
   font-size: 0.8rem;
   font-weight: bold;
-  border: 1.5px solid;
+  border: none;
   box-shadow: var(--shadow-sign-up);
   transition: all 0.1s ease-in-out;
 }
@@ -182,8 +182,7 @@ header .navbar {
 }
 
 .signup .signup-btn:hover {
-  background-color: #ffffff;
-  color: var(--brand-secondary-color);
+  background-color :var(--brand-primary-color);
 }
 
 /* main  */
@@ -242,7 +241,7 @@ h1 .Small-welcome-text {
 .Description-text {
   font-family: var(--font-family-secondary);
   font-size: 1rem;
-  line-height: 1.3rem;
+  line-height: 20px;
   color: var(--text-primary-color);
   margin: 15px 0;
 }
@@ -301,7 +300,7 @@ h1 .Small-welcome-text {
 /* heading paragraph  */
 .best-seller-container .section2-heading p {
   font-family: var(--font-family-secondary);
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-secondary-color);
 }
 
@@ -781,7 +780,6 @@ h1 .Small-welcome-text {
   color: var(--footer-primary-text-color);
 }
 
-
 .add-container,
 .email-container {
   display: flex;
@@ -839,7 +837,6 @@ h1 .Small-welcome-text {
   /* display: inline-block; */
 }
 
-
 /* back to top button  */
 .back-top a {
   width: 3rem;
@@ -851,7 +848,6 @@ h1 .Small-welcome-text {
   background-color: var(--brand-secondary-color);
   text-decoration: none;
 }
-
 
 /* copyright section  */
 .copy-right-container {
