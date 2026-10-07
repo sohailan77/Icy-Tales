@@ -49,8 +49,10 @@
   --footer-secondary-text-color: #cfb6e2;
 }
 
-body {
+html {
   scroll-behavior: smooth;
+}
+body {
   background: var(--background-header-color);
   background-attachment: fixed;
 }
@@ -196,7 +198,7 @@ header .navbar {
     url("Images/home-images/hero-bottom-wave.png");
   background-repeat: no-repeat, no-repeat;
   background-size:
-    min(15%, 300px) auto,
+    min(12%, 240px) auto,
     100% auto;
   background-position:
     left top,
@@ -530,7 +532,6 @@ h1 .Small-welcome-text {
   color: #ffffff;
 }
 
-
 /* Reviews & feedbacks  */
 /* testimonial section */
 .testimonial-section {
@@ -561,11 +562,10 @@ h1 .Small-welcome-text {
   align-items: center;
   background-image: url(Images/home-images/quote-watermark-img.png);
   background-repeat: no-repeat;
-  background-position:top 60px center;
+  background-position: top 60px center;
   background-size: 10% auto;
   position: relative;
 }
-
 
 /* Customers reviews  */
 .testimonial-card {
@@ -604,14 +604,13 @@ h1 .Small-welcome-text {
 
 /* customers images  */
 
-.left-customers-images  div,
-.right-customers-images div{
+.left-customers-images div,
+.right-customers-images div {
   position: absolute;
 }
 
-.customers-reviews-container  img{
-    width: min(5vw, 84px);
-
+.customers-reviews-container img {
+  width: min(5vw, 84px);
 }
 
 .left-customers-images .img1 {
@@ -646,4 +645,216 @@ h1 .Small-welcome-text {
 .right-customers-images .img8 {
   top: 300px;
   right: 420px;
+}
+
+/* footer  */
+
+/* footer main container  */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 160px;
+  background-color: var(--brand-primary-color);
+  background-image: url("Images/footer-left-image.png");
+  background-repeat: no-repeat;
+  background-size: min(12%, 240px) auto;
+  background-position: left bottom;
+}
+
+/* logo and link container  */
+.logo-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 0;
+  width: 50vw;
+  margin-inline: auto;
+  border-bottom: 2px solid #cfb6e226;
+  width: min(1020px, 100%);
+  margin-inline: auto;
+}
+
+/* footer logo  */
+.footer-brand-logo {
+  /* margin: auto; */
+  margin: auto 0;
+}
+.footer-brand-logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer-brand-logo a img {
+  width: 28%;
+}
+
+/* logo text  */
+.footer-brand-logo a span {
+  font-family: var(--font-family-primary);
+  font-size: 1.5rem;
+}
+
+.footer-brand-logo a span:nth-child(2) {
+  color: var(--brand-secondary-color);
+}
+.footer-brand-logo a span:last-child {
+  color: #ffffff;
+}
+
+/* footer nav links container  */
+.nav-footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: var(--font-family-secondary);
+}
+
+/* footer links title */
+.nav-footer-links .nav-footer-title {
+  color: var(--footer-primary-text-color);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* footer links */
+.links {
+  display: flex;
+  gap: 40px;
+  padding-left: 15px;
+}
+
+.links li {
+  padding: 8px 0;
+}
+
+.links li::marker {
+  color: var(--brand-secondary-color);
+}
+
+.links li a {
+  text-decoration: none;
+  color: var(--footer-secondary-text-color);
+  font-size: 0.8rem;
+}
+
+/* Address and mail container  */
+.add-mail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: var(--font-family-secondary);
+}
+
+/* icons  */
+.add-icon,
+.email-icon,
+.social-links-container div {
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: var(--footee-icons-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-links-container i {
+  font-size: 0.8rem;
+}
+
+/* telephone icon  */
+.tel-icon i {
+  font-size: 1.6rem;
+}
+
+/* icons color  */
+i {
+  color: var(--footer-primary-text-color);
+}
+
+
+.add-container,
+.email-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.address span,
+.email span {
+  color: var(--footer-primary-text-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.address p,
+.email p,
+.call p {
+  color: var(--footer-secondary-text-color);
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
+.tel-social-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 15px;
+  font-family: var(--font-family-secondary);
+}
+
+.telphone-container {
+  display: flex;
+  gap: 10px;
+}
+
+.telphone-container span {
+  color: var(--footer-primary-text-color);
+}
+.call {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links-container {
+  display: flex;
+  gap: 10px;
+}
+
+.back-top {
+  position: absolute;
+  bottom: 70px;
+  right: 70px;
+  /* display: inline-block; */
+}
+
+
+/* back to top button  */
+.back-top a {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-secondary-color);
+  text-decoration: none;
+}
+
+
+/* copyright section  */
+.copy-right-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.copy-right-container {
+  font-family: var(--font-family-secondary);
+  color: var(--footer-secondary-text-color);
+  font-size: 0.7rem;
 }
