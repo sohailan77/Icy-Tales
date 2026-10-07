@@ -1,0 +1,114 @@
+/* Variables */
+
+:root {
+  --brand-primary-color: #683292;
+  --brand-secondary-color: #f83d8e;
+  --text-primary-color: #0f0200;
+  --text-primary-color-hover: #f83d8e;
+  --text-secondary-color: #646464;
+  --background-primary-color: linear-gradient(
+    90deg,
+    #ceaece 0%,
+    #f7e9f7 10%,
+    #ffffff 20%,
+    #ffffff 60%,
+    #c8d2db 60%,
+    #faf8f6 80%,
+    #faf3ef 100%
+  );
+  --background-header-color: linear-gradient(
+    90deg,
+    #eee0ef 0%,
+    #f0e6f2 25%,
+    #f2edf5 50%,
+    #f3f1f5 70%,
+    #f5efeb 100%
+  );
+  --header-bottom-shadow: 0px 4px 20px rgba(104, 50, 146, 0.08);
+  --button-primary-color: #683292;
+  --button-secondary-color: #f83d8e;
+  --button-primary-color-hover: #ffffff;
+  --button-secondary-color-hover: ##ffffff;
+  --icons-bg-color: #e6ddea;
+  --icons-bg-color-hover: #e2cfee;
+  --footee-icons-bg-color: #ffffff26;
+  --footer-icons-bg-color-hover: #ffffff1a;
+  --shadow-sign-up: 0px 3px 16px 2px rgba(248, 61, 142, 0.24);
+  --shadow-browse: 0px 3px 16px 2px rgba(104, 50, 146, 0.24);
+  --shadow-read-more: 0px 3px 16px 2px rgba(248, 61, 142, 0.1);
+  --shadow-product-card-container: inset 0px 2px 50px 2px rgba(0, 0, 0, 0.07);
+  --font-family-primary: "Berkshire Swash", serif;
+  --font-family-secondary: "Archivo", sans-serif;
+  --footer-primary-text-color: #ffffff;
+  --footer-secondary-text-color: #cfb6e2;
+}
+
+/* main  */
+/* about us section  */
+
+.about-us-section {
+  width: min(1520px, 100%);
+  margin-inline: auto;
+}
+
+.about-mission-banner {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 50px;
+  background-color: var(--brand-primary-color);
+}
+
+.section-heading {
+  margin: 50px 0;
+}
+
+.section-heading h2 {
+  text-align: center;
+  font-family: var(--font-family-primary);
+  font-size: 3.2rem;
+  font-weight: normal;
+}
+
+.about-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20%;
+  gap: 30px;
+}
+
+.about-content-text h3{
+    font-family: var(--font-family-primary);
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.about-content-text p {
+    font-family: var(--font-family-secondary);
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 22px;
+}
+.banner-right-image img {
+  width: min(65vw, 650px);
+}
+
+.about-content-text button {
+ background-color: var(--brand-secondary-color);
+  padding: 12px 34px;
+  border-radius: 40px;
+  font-family: var(--font-family-secondary);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: none;
+  box-shadow: var(--shadow-sign-up);
+  transition: all 0.1s ease-in-out;
+}
+
+button i {
+    padding-left:12px;
+}
