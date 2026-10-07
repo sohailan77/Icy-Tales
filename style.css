@@ -756,7 +756,7 @@ h1 .Small-welcome-text {
 /* icons  */
 .add-icon,
 .email-icon,
-.social-links-container div {
+.social-links-container a {
   border-radius: 50%;
   width: 2.2rem;
   height: 2.2rem;
@@ -764,6 +764,7 @@ h1 .Small-welcome-text {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .logo-links-container i {
@@ -776,7 +777,7 @@ h1 .Small-welcome-text {
 }
 
 /* icons color  */
-i {
+.logo-links-container i {
   color: var(--footer-primary-text-color);
 }
 
