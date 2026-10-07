@@ -614,39 +614,44 @@ h1 .Small-welcome-text {
 }
 
 .left-customers-images .img1 {
-  top: 30px;
-  left: 190px;
+  top: 7%;
+  left: 11%;
 }
+
 .left-customers-images .img2 {
-  top: 130px;
-  left: 300px;
+  top: 40%;
+  left: 20%;
 }
+
 .left-customers-images .img3 {
-  top: 220px;
-  left: 140px;
+  top: 70%;
+  left: 8%;
 }
+
 .left-customers-images .img4 {
-  top: 280px;
-  left: 360px;
+  top: 90%;
+  left: 23%;
 }
 
 .right-customers-images .img5 {
-  top: 0px;
-  right: 370px;
-}
-.right-customers-images .img6 {
-  top: 100px;
-  right: 170px;
-}
-.right-customers-images .img7 {
-  top: 150px;
-  right: 330px;
-}
-.right-customers-images .img8 {
-  top: 300px;
-  right: 420px;
+  top: 0%;
+  right: 24%;
 }
 
+.right-customers-images .img6 {
+  top: 25%;
+  right: 11%;
+}
+
+.right-customers-images .img7 {
+  top: 38%;
+  right: 21%;
+}
+
+.right-customers-images .img8 {
+  top: 95%;
+  right: 27%;
+}
 /* footer  */
 
 /* footer main container  */
