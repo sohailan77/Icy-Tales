@@ -104,6 +104,12 @@
   background-repeat: no-repeat;
   background-size: 65%;
   background-position: bottom;
+  transition: background-size 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.product:hover {
+  .product-image {
+    background-size: 75%;
+  }
 }
 
 .image1 {
@@ -162,9 +168,24 @@
   background-color: var(--brand-secondary-color);
   padding: 14px 20px;
   border-radius: 40px;
-   color: #ffffff;
+  color: #ffffff;
   font-size: 0.8rem;
   font-weight: 600;
   border: none;
   margin-top: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+.product button i {
+  padding-left: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* button hover effect */
+.product button:hover {
+  background-color: var(--brand-primary-color);
+
+  i{
+    padding-left: 10px;
+  }
 }

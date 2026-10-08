@@ -115,7 +115,17 @@
 }
 
 button i {
-  padding-left: 12px;
+  padding-left: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* banner button hover  */
+.about-content-text button:hover {
+  background-color: #632791;
+
+  i{
+    padding-left: 12px;
+  }
 }
 
 /* main stats section  */
@@ -269,7 +279,6 @@ button i {
   margin-top: 8px;
   display: flex;
   gap: 10px;
-
 }
 .social-links a {
   border-radius: 50%;
@@ -280,6 +289,12 @@ button i {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  transition: background-color 0.1s ease-in-out;
+}
+
+/* secial links icon hover effect  */
+.social-links a:hover {
+  background-color: var(--brand-primary-color);
 }
 
 .social-links i {

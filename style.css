@@ -169,10 +169,12 @@ header .navbar {
   border: none;
   box-shadow: var(--shadow-sign-up);
   transition: all 0.1s ease-in-out;
+  cursor: pointer;
 }
 
 .signup .signup-btn i {
-  padding-left: 12px;
+  padding-left: 5px;
+  transition: all 0.2s ease-in-out;
 }
 
 /* navbar actions hover */
@@ -182,8 +184,13 @@ header .navbar {
 }
 
 .signup .signup-btn:hover {
-  background-color :var(--brand-primary-color);
+  background-color: var(--brand-primary-color);
+
+  i{
+    padding-left: 12px;
+  }
 }
+
 
 /* main  */
 /* hero part */
@@ -248,7 +255,7 @@ h1 .Small-welcome-text {
 
 .browse-button button {
   background-color: var(--brand-primary-color);
-  padding: 14px 25px;
+  padding: 14px 28px;
   border-radius: 40px;
   font-family: var(--font-family-secondary);
   color: #ffffff;
@@ -260,7 +267,25 @@ h1 .Small-welcome-text {
 }
 
 .browse-button button i {
-  padding-left: 12px;
+  padding-left: 8px;
+  animation: slide 1s ease-in-out infinite;
+
+}
+
+/* browse button hover effect & animations  */
+.browse-button button:hover {
+  background-color: var(--brand-secondary-color);
+}
+
+@keyframes slide {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
 }
 
 .hero-container img {
@@ -326,6 +351,13 @@ h1 .Small-welcome-text {
   box-shadow: var(--shadow-product-card-container);
   padding: 8px;
   padding-bottom: 25px;
+  cursor: pointer;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* product card hover effect */
+.product-card:hover {
+  transform: scale(1.1);
 }
 
 /* product image container */
@@ -524,8 +556,23 @@ h1 .Small-welcome-text {
   border: 1.5px;
   box-shadow: var(--shadow-browse);
   margin-bottom: 20px;
+  transition: background-color 0.1s ease-in-out;
 }
 
+.center-content button i {
+  padding-left: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* .offer banner button hover effects  */
+
+.center-content button:hover {
+  background-color: #632791;
+
+  i{
+    padding-left: 12px;
+  }
+}
 .center-content .code {
   font-family: var(--font-family-secondary);
   font-size: 0.85em;
@@ -538,7 +585,6 @@ h1 .Small-welcome-text {
   width: min(1520px, 100%);
   margin-inline: auto;
   padding-bottom: 200px;
-  
 }
 
 /* heading text  */
@@ -743,6 +789,12 @@ h1 .Small-welcome-text {
   text-decoration: none;
   color: var(--footer-secondary-text-color);
   font-size: 0.8rem;
+  transition: color 0.1s ease-in-out;
+}
+
+/* footer links hover  */
+.links li:hover a {
+  color: var(--text-primary-color-hover);
 }
 
 /* Address and mail container  */
@@ -765,6 +817,15 @@ h1 .Small-welcome-text {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  transition: background-color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+/* footer icon hover effect  */
+.add-icon:hover,
+.email-icon:hover,
+.social-links-container a:hover {
+  background-color: var(--footer-icons-bg-color-hover);
 }
 
 .logo-links-container i {
@@ -807,8 +868,6 @@ h1 .Small-welcome-text {
 .tel-social-container {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: center; */
   gap: 15px;
   font-family: var(--font-family-secondary);
 }
@@ -848,8 +907,14 @@ h1 .Small-welcome-text {
   align-items: center;
   background-color: var(--brand-secondary-color);
   text-decoration: none;
+  transition: color 0.1s ease-in-out;
 }
 
+/* back to top button hover  */
+
+.back-top a:hover {
+  color: #ffffff;
+}
 
 /* copyright section  */
 .copy-right-container {
