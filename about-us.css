@@ -43,6 +43,52 @@
   --footer-secondary-text-color: #cfb6e2;
 }
 
+.dark {
+  /* Brand */
+  --brand-primary-color: #4a235a;
+  --brand-secondary-color: #9b3f78;
+
+  /* Product / Cards */
+  --product-container: #151317;
+
+  /* Text */
+  --text-primary-color: #e6e1e8;
+  --text-primary-color-hover: #c45a9a;
+  --text-secondary-color: #858087;
+
+  /* Background */
+  --background-primary-color: #080709;
+
+  /* Header */
+  --background-header-color: #16101a;
+
+  --header-bottom-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+  /* Buttons */
+  --button-primary-color: #4a235a;
+  --button-secondary-color: #9b3f78;
+  --button-primary-color-hover: #e6e1e8;
+  --button-secondary-color-hover: #e6e1e8;
+
+  /* Icons */
+  --icons-bg-color: #9b3f78;
+
+  /* Footer Icons */
+  --footer-icons-bg-color: #ffffff10;
+  --footer-icons-bg-color-hover: #ffffff18;
+
+  /* Shadows */
+  --shadow-sign-up: 0 4px 18px rgba(155, 63, 120, 0.16);
+  --shadow-browse: 0 4px 18px rgba(155, 63, 120, 0.16);
+  --shadow-read-more: 0 4px 18px rgba(155, 63, 120, 0.08);
+
+  --shadow-product-card-container: inset 0 2px 40px rgba(0, 0, 0, 0.75);
+
+  /* Footer */
+  --footer-primary-text-color: #e6e1e8;
+  --footer-secondary-text-color: #858087;
+}
+
 /* main  */
 /* about us section  */
 
@@ -70,6 +116,7 @@
   font-family: var(--font-family-primary);
   font-size: 3.2rem;
   font-weight: normal;
+  color: var(--text-primary-color);
 }
 
 .about-content-text {

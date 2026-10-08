@@ -37,8 +37,7 @@
   --button-primary-color-hover: #ffffff;
   --button-secondary-color-hover: #ffffff;
   --icons-bg-color: #e6ddea;
-  --icons-bg-color-hover: #e2cfee;
-  --footee-icons-bg-color: #ffffff26;
+  --footer-icons-bg-color: #ffffff26;
   --footer-icons-bg-color-hover: #ffffff1a;
   --shadow-sign-up: 0px 3px 16px 2px rgba(248, 61, 142, 0.24);
   --shadow-browse: 0px 3px 16px 2px rgba(104, 50, 146, 0.24);
@@ -51,7 +50,7 @@
 }
 
 .dark {
-   /* Brand */
+  /* Brand */
   --brand-primary-color: #4a235a;
   --brand-secondary-color: #9b3f78;
 
@@ -67,8 +66,9 @@
   --background-primary-color: #080709;
 
   /* Header */
-  --background-header-color: #0c0a0e;
-  --header-bottom-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  --background-header-color: #16101a;
+
+  --header-bottom-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 
   /* Buttons */
   --button-primary-color: #4a235a;
@@ -77,11 +77,10 @@
   --button-secondary-color-hover: #e6e1e8;
 
   /* Icons */
-  --icons-bg-color: #18131a;
-  --icons-bg-color-hover: #251a29;
+  --icons-bg-color: #9b3f78;
 
   /* Footer Icons */
-  --footee-icons-bg-color: #ffffff10;
+  --footer-icons-bg-color: #ffffff10;
   --footer-icons-bg-color-hover: #ffffff18;
 
   /* Shadows */
@@ -89,8 +88,7 @@
   --shadow-browse: 0 4px 18px rgba(155, 63, 120, 0.16);
   --shadow-read-more: 0 4px 18px rgba(155, 63, 120, 0.08);
 
-  --shadow-product-card-container:
-    inset 0 2px 40px rgba(0, 0, 0, 0.75);
+  --shadow-product-card-container: inset 0 2px 40px rgba(0, 0, 0, 0.75);
 
   /* Footer */
   --footer-primary-text-color: #e6e1e8;
@@ -206,6 +204,11 @@ header .navbar {
   cursor: pointer;
 }
 
+.search-icon svg,
+.cart-icon svg {
+  color: var(--text-primary-color);
+}
+
 .signup .signup-btn {
   background-color: var(--brand-secondary-color);
   padding: 12px 34px;
@@ -234,11 +237,10 @@ header .navbar {
 .signup .signup-btn:hover {
   background-color: var(--brand-primary-color);
 
-  i{
+  i {
     padding-left: 12px;
   }
 }
-
 
 /* main  */
 /* hero part */
@@ -317,7 +319,6 @@ h1 .Small-welcome-text {
 .browse-button button i {
   padding-left: 8px;
   animation: slide 1s ease-in-out infinite;
-
 }
 
 /* browse button hover effect & animations  */
@@ -495,6 +496,7 @@ h1 .Small-welcome-text {
   font-weight: 500;
   font-size: 0.8rem;
   line-height: 24px;
+  color: var(--text-primary-color);
 }
 
 .product-details p {
@@ -617,7 +619,7 @@ h1 .Small-welcome-text {
 .center-content button:hover {
   background-color: #632791;
 
-  i{
+  i {
     padding-left: 12px;
   }
 }
@@ -861,7 +863,7 @@ h1 .Small-welcome-text {
   border-radius: 50%;
   width: 2.2rem;
   height: 2.2rem;
-  background-color: var(--footee-icons-bg-color);
+  background-color: var(--footer-icons-bg-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -943,7 +945,6 @@ h1 .Small-welcome-text {
   position: absolute;
   bottom: 70px;
   right: 70px;
-  /* display: inline-block; */
 }
 
 /* back to top button  */
@@ -955,6 +956,7 @@ h1 .Small-welcome-text {
   justify-content: center;
   align-items: center;
   background-color: var(--brand-secondary-color);
+  color:var(--button-primary-color);
   text-decoration: none;
   transition: color 0.1s ease-in-out;
 }
