@@ -9,6 +9,7 @@
 :root {
   --brand-primary-color: #683292;
   --brand-secondary-color: #f83d8e;
+  --product-container: #ffffff;
   --text-primary-color: #0f0200;
   --text-primary-color-hover: #f83d8e;
   --text-secondary-color: #646464;
@@ -34,7 +35,7 @@
   --button-primary-color: #683292;
   --button-secondary-color: #f83d8e;
   --button-primary-color-hover: #ffffff;
-  --button-secondary-color-hover: ##ffffff;
+  --button-secondary-color-hover: #ffffff;
   --icons-bg-color: #e6ddea;
   --icons-bg-color-hover: #e2cfee;
   --footee-icons-bg-color: #ffffff26;
@@ -47,6 +48,53 @@
   --font-family-secondary: "Archivo", sans-serif;
   --footer-primary-text-color: #ffffff;
   --footer-secondary-text-color: #cfb6e2;
+}
+
+.dark {
+   /* Brand */
+  --brand-primary-color: #4a235a;
+  --brand-secondary-color: #9b3f78;
+
+  /* Product / Cards */
+  --product-container: #151317;
+
+  /* Text */
+  --text-primary-color: #e6e1e8;
+  --text-primary-color-hover: #c45a9a;
+  --text-secondary-color: #858087;
+
+  /* Background */
+  --background-primary-color: #080709;
+
+  /* Header */
+  --background-header-color: #0c0a0e;
+  --header-bottom-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+
+  /* Buttons */
+  --button-primary-color: #4a235a;
+  --button-secondary-color: #9b3f78;
+  --button-primary-color-hover: #e6e1e8;
+  --button-secondary-color-hover: #e6e1e8;
+
+  /* Icons */
+  --icons-bg-color: #18131a;
+  --icons-bg-color-hover: #251a29;
+
+  /* Footer Icons */
+  --footee-icons-bg-color: #ffffff10;
+  --footer-icons-bg-color-hover: #ffffff18;
+
+  /* Shadows */
+  --shadow-sign-up: 0 4px 18px rgba(155, 63, 120, 0.16);
+  --shadow-browse: 0 4px 18px rgba(155, 63, 120, 0.16);
+  --shadow-read-more: 0 4px 18px rgba(155, 63, 120, 0.08);
+
+  --shadow-product-card-container:
+    inset 0 2px 40px rgba(0, 0, 0, 0.75);
+
+  /* Footer */
+  --footer-primary-text-color: #e6e1e8;
+  --footer-secondary-text-color: #858087;
 }
 
 html {
@@ -296,7 +344,7 @@ h1 .Small-welcome-text {
 /* best seller section  */
 
 .best-product-section {
-  background-color: #ffffff;
+  background-color: var(--product-container);
   padding-top: 70px;
   padding-bottom: 100px;
 }
@@ -628,6 +676,7 @@ h1 .Small-welcome-text {
 .testimonial-card p {
   text-align: center;
   font-size: 0.95rem;
+  color: var(--text-primary-color);
   line-height: 24px;
   margin-bottom: 50px;
 }
