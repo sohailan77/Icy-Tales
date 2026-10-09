@@ -124,7 +124,7 @@ header .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10%;
+  padding: 10px 8vw;
 }
 
 /* navbar logo anchor  */
@@ -137,7 +137,8 @@ header .navbar {
 
 /* navbar logo  */
 .navbar .logo-container a img {
-  width: 30%;
+  width: 3rem
+  
 }
 
 /* navbar logo text  */
@@ -189,7 +190,7 @@ header .navbar {
 
 .searct-cart-container {
   display: flex;
-  margin: 0 30px 0 20px;
+  margin: 0 1.9rem 0 1.9rem;
 }
 
 .search-icon,
@@ -211,8 +212,8 @@ header .navbar {
 
 .signup .signup-btn {
   background-color: var(--brand-secondary-color);
-  padding: 12px 34px;
-  border-radius: 40px;
+  padding: 0.8rem 2.2rem;
+  border-radius: 2.5rem;
   font-family: var(--font-family-secondary);
   color: #ffffff;
   font-size: 0.8rem;
@@ -224,7 +225,7 @@ header .navbar {
 }
 
 .signup .signup-btn i {
-  padding-left: 5px;
+  padding-left: 0.31rem;
   transition: all 0.2s ease-in-out;
 }
 
@@ -238,7 +239,7 @@ header .navbar {
   background-color: var(--brand-primary-color);
 
   i {
-    padding-left: 12px;
+    padding-left: 0.85rem;
   }
 }
 
@@ -247,14 +248,14 @@ header .navbar {
 
 .hero-section {
   padding-inline: 40px;
-  padding-top: 40px;
-  padding-bottom: 60px;
+  padding-top: 2.5rem;
+  padding-bottom: 3.75rem;
   background-image:
     url("Images/home-images/hero-left-image.png"),
     url("Images/home-images/hero-bottom-wave.png");
   background-repeat: no-repeat, no-repeat;
   background-size:
-    min(12%, 240px) auto,
+    min(12%, 15rem) auto,
     100% auto;
   background-position:
     left top,
@@ -266,7 +267,7 @@ header .navbar {
   justify-content: center;
   margin-inline: auto;
   align-items: center;
-  gap: 8%;
+  gap: 4rem;
 }
 
 .section1-heading {
@@ -284,6 +285,11 @@ h1 .Small-welcome-text {
   font-weight: 400;
 }
 
+.Small-welcome-text {
+  display: flex;
+  align-items: center;
+}
+
 .heading-text {
   font-size: 5rem;
   line-height: 4.75rem;
@@ -298,15 +304,15 @@ h1 .Small-welcome-text {
 .Description-text {
   font-family: var(--font-family-secondary);
   font-size: 1rem;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: var(--text-primary-color);
-  margin: 15px 0;
+  margin: 0.93rem 0;
 }
 
 .browse-button button {
   background-color: var(--brand-primary-color);
-  padding: 14px 28px;
-  border-radius: 40px;
+  padding: 0.87rem 1.75rem;
+  border-radius: 2.5rem;
   font-family: var(--font-family-secondary);
   color: #ffffff;
   font-size: 0.8rem;
@@ -317,7 +323,7 @@ h1 .Small-welcome-text {
 }
 
 .browse-button button i {
-  padding-left: 8px;
+  padding-left: 0.4rem;
   animation: slide 1s ease-in-out infinite;
 }
 
@@ -333,12 +339,12 @@ h1 .Small-welcome-text {
   }
 
   50% {
-    transform: translate(10px, 0);
+    transform: translate(0.62rem, 0);
   }
 }
 
 .hero-container img {
-  width: min(50vw, 500px);
+  width: min(50vw, 32rem);
 }
 
 /* main  */
@@ -346,8 +352,8 @@ h1 .Small-welcome-text {
 
 .best-product-section {
   background-color: var(--product-container);
-  padding-top: 70px;
-  padding-bottom: 100px;
+  padding-top: 4.37rem;
+  padding-bottom: 6.25rem;
 }
 
 .best-seller-container {
@@ -384,22 +390,22 @@ h1 .Small-welcome-text {
   display: flex;
   justify-content: center;
   margin: auto;
-  gap: 40px;
-  margin-top: 60px;
-  padding-bottom: 50px;
+  gap: 2.5rem;
+  margin-top: 3.75;
+  padding-bottom: 3.125;
   flex-wrap: wrap;
 }
 
 /* Best selling items cards */
 .best-Product-cards .product-card {
-  width: 250px;
+  width: 15.62rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   box-shadow: var(--shadow-product-card-container);
-  padding: 8px;
-  padding-bottom: 25px;
+  padding: 0.5rem;
+  padding-bottom: 1.56rem;
   cursor: pointer;
   transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -413,7 +419,7 @@ h1 .Small-welcome-text {
 .best-Product-cards .product-image {
   flex: 1;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -423,20 +429,20 @@ h1 .Small-welcome-text {
 
 .best-Product-cards .product1-image {
   background-color: #fff3ea;
-  padding: 22px 5px;
+  padding: 1.37rem 0.31rem;
 }
 
 .best-Product-cards .product2-image {
   background-color: #f8ebe4;
-  padding: 18px 5px;
+  padding: 1.12rem 0.31rem;
 }
 .best-Product-cards .product3-image {
   background-color: #ffefd8;
-  padding: 20px 5px;
+  padding: 1.25rem 0.31rem;
 }
 .best-Product-cards .product4-image {
   background-color: #ffeff0;
-  padding: 20px 5px;
+  padding: 1.25rem 0.31rem;
 }
 
 /* product image container image */
@@ -456,8 +462,8 @@ h1 .Small-welcome-text {
 /* product image container heart icon */
 .heart-icon {
   position: absolute;
-  top: 8px;
-  left: 8px;
+  top: 0.5rem;
+  left: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,16 +480,16 @@ h1 .Small-welcome-text {
 
 /* product details  */
 .product-details {
-  padding: 5px;
+  padding: 0.31rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .product-name-rating {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
+  margin-top: 0.93rem;
   font-family: var(--font-family-secondary);
 }
 
@@ -495,7 +501,7 @@ h1 .Small-welcome-text {
 .product-name-rating span:last-child {
   font-weight: 500;
   font-size: 0.8rem;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: var(--text-primary-color);
 }
 
@@ -503,7 +509,7 @@ h1 .Small-welcome-text {
   font-family: var(--font-family-secondary);
   color: var(--text-secondary-color);
   font-size: 0.7rem;
-  line-height: 14px;
+  line-height: 0.87rem;
 }
 
 .price-cart {
@@ -532,18 +538,18 @@ h1 .Small-welcome-text {
 
 /* main promo banner section  */
 .promo-banner {
-  padding-bottom: 120px;
+  padding-bottom: 7.5rem;
 }
 
 /* offer banner container  */
 .offer-banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: var(--brand-secondary-color);
   width: min(1520px, 100%);
   margin-inline: auto;
-  padding: 30px 140px 30px 80px;
+  padding: 3rem 0 3rem 0;
   background-image:
     url("Images/home-images/decore-image1.png"),
     url("Images/home-images/decore-image2.png");
@@ -551,8 +557,8 @@ h1 .Small-welcome-text {
   background-repeat: no-repeat no-repeat;
 
   background-size:
-    min(8%, 200px) auto,
-    min(5%, 200px) auto;
+    min(8%, 12.5rem) auto,
+    min(5%, 12.5rem) auto;
 
   background-position:
     28% 14%,
@@ -560,11 +566,17 @@ h1 .Small-welcome-text {
 }
 
 /* offer product image  */
-.offer-product-left-image img {
-  width: min(36vw, 340px);
+.offer-product-left-image {
+  width: min(36vw, 21.25rem);
 }
-.offer-product-right-image img {
-  width: min(24vw, 280px);
+.offer-product-left-image  img{
+  width: 100%;
+}
+.offer-product-right-image {
+  width: min(24vw, 17.5rem);
+}
+.offer-product-right-image img{
+  width: 100%;
 }
 
 /* offer text  */
@@ -577,18 +589,18 @@ h1 .Small-welcome-text {
 .center-content h3 {
   font-family: var(--font-family-primary);
   font-size: 5rem;
-  line-height: 65px;
+  line-height: 4rem;
   color: #ffffff;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 2.18rem;
 }
 
 .center-content .offer-text {
   font-family: var(--font-family-secondary);
   font-size: 1.2rem;
   color: #ffffff;
-  margin-bottom: 35px;
+  margin-bottom: 2.18rem;
 }
 .center-content span {
   font-family: var(--font-family-secondary);
@@ -597,20 +609,20 @@ h1 .Small-welcome-text {
 
 .center-content button {
   background-color: var(--brand-primary-color);
-  padding: 14px 25px;
-  border-radius: 40px;
+  padding: 0.87rem 1.56rem;
+  border-radius: 2.5rem;
   font-family: var(--font-family-secondary);
   color: #ffffff;
   font-size: 0.8rem;
   font-weight: 600;
   border: 1.5px;
   box-shadow: var(--shadow-browse);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   transition: background-color 0.1s ease-in-out;
 }
 
 .center-content button i {
-  padding-left: 5px;
+  padding-left: 0.31rem;
   transition: all 0.2s ease-in-out;
 }
 
@@ -620,7 +632,7 @@ h1 .Small-welcome-text {
   background-color: #632791;
 
   i {
-    padding-left: 12px;
+    padding-left: 0.85rem;
   }
 }
 .center-content .code {
@@ -634,7 +646,7 @@ h1 .Small-welcome-text {
 .testimonial-section {
   width: min(1520px, 100%);
   margin-inline: auto;
-  padding-bottom: 200px;
+  padding-bottom: 12.5rem;
 }
 
 /* heading text  */
@@ -653,13 +665,13 @@ h1 .Small-welcome-text {
 
 /* Customers reviews container  */
 .customers-reviews-container {
-  padding-top: 80px;
+  padding-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(Images/home-images/quote-watermark-img.png);
   background-repeat: no-repeat;
-  background-position: top 60px center;
+  background-position: top 3.75rem center;
   background-size: 10% auto;
   position: relative;
 }
@@ -671,7 +683,7 @@ h1 .Small-welcome-text {
   justify-content: center;
   align-items: center;
   font-family: var(--font-family-secondary);
-  margin-inline: 50px;
+  margin-inline: 3.125rem;
 }
 
 /* reviews text */
@@ -679,25 +691,25 @@ h1 .Small-welcome-text {
   text-align: center;
   font-size: 0.95rem;
   color: var(--text-primary-color);
-  line-height: 24px;
-  margin-bottom: 50px;
+  line-height: 1.5rem;
+  margin-bottom: 3.125rem;
 }
 
 .testimonial-card span:nth-child(2) {
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--brand-secondary-color);
-  margin-bottom: 10px;
+  margin-bottom: 0.62rem;
 }
 .testimonial-card span:nth-child(3) {
   font-size: 0.75rem;
   color: var(--text-secondary-color);
-  margin-bottom: 15px;
+  margin-bottom: 0.93rem;
 }
 .testimonial-card span:nth-child(4) i {
   font-size: 0.6rem;
   color: var(--text-secondary-color);
-  margin-bottom: 15px;
+  margin-bottom: 0.93rem;
 }
 
 /* customers images  */
@@ -708,7 +720,7 @@ h1 .Small-welcome-text {
 }
 
 .customers-reviews-container img {
-  width: min(5vw, 84px);
+  width: min(5vw, 5.25rem);
 }
 
 .left-customers-images .img1 {
@@ -760,7 +772,7 @@ h1 .Small-welcome-text {
   background-color: var(--brand-primary-color);
   background-image: url("Images/footer-left-image.png");
   background-repeat: no-repeat;
-  background-size: min(12%, 240px) auto;
+  background-size: min(12%, 15rem) auto;
   background-position: left bottom;
 }
 
@@ -768,8 +780,8 @@ h1 .Small-welcome-text {
 .logo-links-container {
   display: flex;
   justify-content: center;
-  gap: 60px;
-  padding: 60px 0;
+  gap: 3.75rem;
+  padding: 3.75rem 0;
   width: 50vw;
   margin-inline: auto;
   border-bottom: 2px solid #cfb6e226;
@@ -810,7 +822,7 @@ h1 .Small-welcome-text {
 .nav-footer-links {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0.93rem;
   font-family: var(--font-family-secondary);
 }
 
@@ -824,12 +836,12 @@ h1 .Small-welcome-text {
 /* footer links */
 .links {
   display: flex;
-  gap: 40px;
-  padding-left: 15px;
+  gap: 2.5rem;
+  padding-left: 0.93rem;
 }
 
 .links li {
-  padding: 8px 0;
+  padding: 0.5rem 0;
 }
 
 .links li::marker {
@@ -852,7 +864,7 @@ h1 .Small-welcome-text {
 .add-mail-container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0.93rem;
   font-family: var(--font-family-secondary);
 }
 
@@ -897,7 +909,7 @@ h1 .Small-welcome-text {
 .email-container {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 0.93rem;
 }
 
 .address span,
@@ -905,7 +917,7 @@ h1 .Small-welcome-text {
   color: var(--footer-primary-text-color);
   font-size: 0.9rem;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .address p,
@@ -913,19 +925,19 @@ h1 .Small-welcome-text {
 .call p {
   color: var(--footer-secondary-text-color);
   font-size: 0.8rem;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .tel-social-container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0.93rem;
   font-family: var(--font-family-secondary);
 }
 
 .telphone-container {
   display: flex;
-  gap: 10px;
+  gap: 0.62rem;
 }
 
 .telphone-container span {
@@ -938,13 +950,13 @@ h1 .Small-welcome-text {
 
 .social-links-container {
   display: flex;
-  gap: 10px;
+  gap: 0.62rem;
 }
 
 .back-top {
   position: absolute;
-  bottom: 70px;
-  right: 70px;
+  bottom: 4.37rem;
+  right: 4.37rem;
 }
 
 /* back to top button  */
