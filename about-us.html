@@ -29,14 +29,18 @@
 <body class="">
     <header>
         <div class="navbar">
+                
             <div class="logo-container">
+                <a href="#" class="nav-toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
                 <a href="#">
                     <img src="Images/header-logo.png" alt="logo">
                     <span>Icy</span><span>Tales</span>
                 </a>
             </div>
             <div class="nav-links-button-container">
-                <nav class="nav-container">
+                <nav class="nav-container" id="anchortags">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="menu.html">Menu</a></li>
@@ -272,6 +276,16 @@
         </div>
     </footer>
 
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const anchortags = document.getElementById('anchortags');
+
+        toggleButton.addEventListener('click', () => {
+            anchortags.classList.toggle('onclick');
+        })
+
+
+    </script>
 </body>
 
 </html>

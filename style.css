@@ -127,7 +127,22 @@ header .navbar {
   padding: 10px 8vw;
 }
 
+.navbar .logo-container .nav-toggle {
+  display: none;
+}
+
+.nav-toggle i {
+  color: var(--brand-primary-color);
+  font-size: 1.3rem;
+}
+
 /* navbar logo anchor  */
+
+.navbar .logo-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
 .navbar .logo-container a {
   display: flex;
   justify-content: center;
@@ -137,8 +152,7 @@ header .navbar {
 
 /* navbar logo  */
 .navbar .logo-container a img {
-  width: 3rem
-  
+  width: 3rem;
 }
 
 /* navbar logo text  */
@@ -267,14 +281,30 @@ header .navbar {
   justify-content: center;
   margin-inline: auto;
   align-items: center;
-  gap: 4rem;
 }
 
 .section1-heading {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+
 }
 
+/* hero section image  */
+.right-hero-product-image {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.right-hero-product-image img {
+  width: 100%;
+  display: block;
+  max-width: 550px;
+}
+
+/* hero section heading content  */
 .section1-heading h1 {
   font-family: var(--font-family-primary);
 }
@@ -343,10 +373,6 @@ h1 .Small-welcome-text {
   }
 }
 
-.hero-container img {
-  width: min(50vw, 32rem);
-}
-
 /* main  */
 /* best seller section  */
 
@@ -363,6 +389,7 @@ h1 .Small-welcome-text {
 /* heading text  */
 .best-seller-container .section2-heading {
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .best-seller-container .section2-heading h2 {
@@ -569,13 +596,13 @@ h1 .Small-welcome-text {
 .offer-product-left-image {
   width: min(36vw, 21.25rem);
 }
-.offer-product-left-image  img{
+.offer-product-left-image img {
   width: 100%;
 }
 .offer-product-right-image {
   width: min(24vw, 17.5rem);
 }
-.offer-product-right-image img{
+.offer-product-right-image img {
   width: 100%;
 }
 
@@ -646,7 +673,6 @@ h1 .Small-welcome-text {
 .testimonial-section {
   width: min(1520px, 100%);
   margin-inline: auto;
-  padding-bottom: 12.5rem;
 }
 
 /* heading text  */
@@ -657,6 +683,8 @@ h1 .Small-welcome-text {
   font-weight: 400;
   line-height: 3.75rem;
   color: var(--text-primary-color);
+  padding-bottom: 3rem;
+
 }
 
 .testimonial-title h3 span {
@@ -665,13 +693,13 @@ h1 .Small-welcome-text {
 
 /* Customers reviews container  */
 .customers-reviews-container {
-  padding-top: 5rem;
   display: flex;
   justify-content: center;
+  margin: auto;
   align-items: center;
   background-image: url(Images/home-images/quote-watermark-img.png);
   background-repeat: no-repeat;
-  background-position: top 3.75rem center;
+  background-position: top 50px center;
   background-size: 10% auto;
   position: relative;
 }
@@ -724,7 +752,7 @@ h1 .Small-welcome-text {
 }
 
 .left-customers-images .img1 {
-  top: 7%;
+  top: 17%;
   left: 11%;
 }
 
@@ -764,6 +792,9 @@ h1 .Small-welcome-text {
 }
 /* footer  */
 
+footer {
+  padding-top: 12.5rem;
+}
 /* footer main container  */
 .footer-container {
   display: flex;
@@ -802,7 +833,7 @@ h1 .Small-welcome-text {
 }
 
 .footer-brand-logo a img {
-  width: 28%;
+  width: 3rem;
 }
 
 /* logo text  */
@@ -968,7 +999,7 @@ h1 .Small-welcome-text {
   justify-content: center;
   align-items: center;
   background-color: var(--brand-secondary-color);
-  color:var(--button-primary-color);
+  color: var(--button-primary-color);
   text-decoration: none;
   transition: color 0.1s ease-in-out;
 }
@@ -981,7 +1012,7 @@ h1 .Small-welcome-text {
 
 /* copyright section  */
 .copy-right-container {
-  margin: 20px 0;
+  margin: 1.25rem 0;
   text-align: center;
 }
 
