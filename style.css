@@ -97,11 +97,15 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+
 }
 body {
   background: var(--background-header-color);
   background-attachment: fixed;
+  overflow-x: hidden;
 }
+
 
 /* Style for the current/active page link */
 .nav-container ul li .active {
@@ -260,21 +264,9 @@ header .navbar {
 /* main  */
 /* hero part */
 
-/* .hero-section {
-  padding-inline: 1.5rem;
-  padding-top: 2.5rem;
-  padding-bottom: 3.75rem;
-  background-image:
-    url("Images/home-images/hero-left-image.png");
-  background-repeat: no-repeat;
-  background-size:
-    contain auto;
-  background-position:
-    left top;
-} */
 
 .hero-section {
-  padding-inline: 0;
+  padding-inline: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 0;
 
