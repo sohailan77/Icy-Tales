@@ -1,6 +1,3 @@
-
-
-
 @media screen and (min-width: 1280px) {
   html {
     font-size: 100%;
@@ -157,7 +154,6 @@
   }
 }
 
-
 @media screen and (max-width: 658px) {
   html {
     font-size: 100%;
@@ -171,7 +167,6 @@
     width: 90%;
     min-width: 300px;
   }
-
 }
 @media screen and (max-width: 534px) {
   html {
@@ -183,23 +178,43 @@
   }
   .searct-cart-container {
     margin: 0 1rem 0 1rem;
-}
+  }
 
-.signup .signup-btn {
+  .signup .signup-btn {
     padding: 0.7rem 1.2rem;
     border-radius: 2.5rem;
     font-size: 0.8rem;
-}
+  }
 
-.signup .signup-btn i {
+  .signup .signup-btn i {
     padding-left: 0.21rem;
     transition: all 0.2s ease-in-out;
+  }
+
+  .right-hero-product-image img {
+    width: 90%;
+  }
+
+  .offer-product-left-image img {
+    width: 70%;
+  }
+
+  .offer-product-right-image img {
+    width: 60%;
+  }
+
+  .customers-reviews-container img {
+    width: 3.25rem;
+  }
+  .testimonial-card p {
+    text-align: center;
+    font-size: 0.85rem;
+  }
 }
 
-}
 @media screen and (max-width: 422px) {
   html {
-    font-size: 85%;
+    font-size: 80%;
   }
 
   .nav-container ul li a {
@@ -207,30 +222,47 @@
   }
   .searct-cart-container {
     margin: 0 1rem 0 1rem;
-}
-.signup .signup-btn i {
-   display: none;
-}
-
-}
-@media screen and (max-width: 422px) {
-  html {
-    font-size: 80%;
+  }
+  .signup .signup-btn i {
+    display: none;
   }
 
+  .customers-reviews-container img {
+    width: 2.5rem;
+  }
+  .testimonial-card p {
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+   .right-hero-product-image img {
+    width: 90%;
+  }
+
+  .offer-product-left-image img {
+    width: 60%;
+  }
+
+  .offer-product-right-image img {
+    width: 50%;
+  }
+.member img {
+    width: 12rem;
+    height: 12rem;
+}
 }
 @media screen and (max-width: 362px) {
   html {
     font-size: 50%;
   }
 
+ 
 }
 @media screen and (max-width: 204px) {
   html {
     font-size: 50%;
   }
   body {
-  overflow-x: hidden;
+    overflow-x: hidden;
   }
-
 }
