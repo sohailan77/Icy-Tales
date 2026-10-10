@@ -37,7 +37,7 @@
     flex-direction: column;
     background-color: #ffffff;
     width: 100%;
-    transition: left 0.4s ease-in-out;
+    transition: left 0.3s ease-in-out;
   }
 
   .nav-container ul {
