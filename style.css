@@ -260,21 +260,38 @@ header .navbar {
 /* main  */
 /* hero part */
 
-.hero-section {
+/* .hero-section {
   padding-inline: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 3.75rem;
   background-image:
-    url("Images/home-images/hero-left-image.png"),
-    url("Images/home-images/hero-bottom-wave.png");
-  background-repeat: no-repeat, no-repeat;
+    url("Images/home-images/hero-left-image.png");
+  background-repeat: no-repeat;
   background-size:
-    contain auto,
     contain auto;
   background-position:
-    left top,
-    center bottom;
+    left top;
+} */
+
+.hero-section {
+  padding-inline: 0;
+  padding-top: 2.5rem;
+  padding-bottom: 0;
+
+  background-image: url("Images/home-images/hero-left-image.png");
+
+  background-repeat: no-repeat;
+
+  background-size: contain auto;
+
+  background-position: left top;
 }
+
+.hero-wave-image {
+  width: 100%;
+  display: block;
+}
+
 .hero-container {
   width: min(1520px, 100%);
   margin-inline: auto;
@@ -674,14 +691,12 @@ h1 .Small-welcome-text {
   color: #ffffff;
 }
 
-
 /* Reviews & feedbacks  */
 /* testimonial section */
 .testimonial-section {
   width: min(1520px, 100%);
   margin-inline: auto;
   padding-inline: 1.5rem;
-
 }
 
 /* heading text  */
