@@ -261,7 +261,7 @@ header .navbar {
 /* hero part */
 
 .hero-section {
-  padding-inline: 40px;
+  padding-inline: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 3.75rem;
   background-image:
@@ -269,17 +269,17 @@ header .navbar {
     url("Images/home-images/hero-bottom-wave.png");
   background-repeat: no-repeat, no-repeat;
   background-size:
-    min(12%, 15rem) auto,
-    100% auto;
+    contain auto,
+    contain auto;
   background-position:
     left top,
     center bottom;
 }
 .hero-container {
   width: min(1520px, 100%);
+  margin-inline: auto;
   display: flex;
   justify-content: center;
-  margin-inline: auto;
   align-items: center;
 }
 
@@ -288,7 +288,6 @@ header .navbar {
   flex-direction: column;
   justify-content: flex-start;
   width: 50%;
-
 }
 
 /* hero section image  */
@@ -380,6 +379,7 @@ h1 .Small-welcome-text {
   background-color: var(--product-container);
   padding-top: 4.37rem;
   padding-bottom: 6.25rem;
+  padding-inline: 1.5rem;
 }
 
 .best-seller-container {
@@ -418,8 +418,6 @@ h1 .Small-welcome-text {
   justify-content: center;
   margin: auto;
   gap: 2.5rem;
-  margin-top: 3.75;
-  padding-bottom: 3.125;
   flex-wrap: wrap;
 }
 
@@ -570,13 +568,14 @@ h1 .Small-welcome-text {
 
 /* offer banner container  */
 .offer-banner {
+  padding-inline: 1.5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: var(--brand-secondary-color);
   width: min(1520px, 100%);
   margin-inline: auto;
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 0px 3rem 0px;
   background-image:
     url("Images/home-images/decore-image1.png"),
     url("Images/home-images/decore-image2.png");
@@ -594,20 +593,27 @@ h1 .Small-welcome-text {
 
 /* offer product image  */
 .offer-product-left-image {
-  width: min(36vw, 21.25rem);
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
 }
 .offer-product-left-image img {
   width: 100%;
+  max-width: 380px;
 }
 .offer-product-right-image {
-  width: min(24vw, 17.5rem);
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
 }
 .offer-product-right-image img {
-  width: 100%;
+  width: 85%;
+  max-width: 350px;
 }
 
 /* offer text  */
 .center-content {
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -668,11 +674,14 @@ h1 .Small-welcome-text {
   color: #ffffff;
 }
 
+
 /* Reviews & feedbacks  */
 /* testimonial section */
 .testimonial-section {
   width: min(1520px, 100%);
   margin-inline: auto;
+  padding-inline: 1.5rem;
+
 }
 
 /* heading text  */
@@ -684,7 +693,6 @@ h1 .Small-welcome-text {
   line-height: 3.75rem;
   color: var(--text-primary-color);
   padding-bottom: 3rem;
-
 }
 
 .testimonial-title h3 span {
@@ -699,7 +707,7 @@ h1 .Small-welcome-text {
   align-items: center;
   background-image: url(Images/home-images/quote-watermark-img.png);
   background-repeat: no-repeat;
-  background-position: top 50px center;
+  background-position: top 0px center;
   background-size: 10% auto;
   position: relative;
 }
@@ -711,7 +719,6 @@ h1 .Small-welcome-text {
   justify-content: center;
   align-items: center;
   font-family: var(--font-family-secondary);
-  margin-inline: 3.125rem;
 }
 
 /* reviews text */
@@ -752,7 +759,7 @@ h1 .Small-welcome-text {
 }
 
 .left-customers-images .img1 {
-  top: 17%;
+  top: 0%;
   left: 11%;
 }
 
@@ -772,22 +779,22 @@ h1 .Small-welcome-text {
 }
 
 .right-customers-images .img5 {
-  top: 0%;
-  right: 24%;
+  top: -10%;
+  right: 18%;
 }
 
 .right-customers-images .img6 {
-  top: 25%;
+  top: 50%;
   right: 11%;
 }
 
 .right-customers-images .img7 {
-  top: 38%;
+  top: 50%;
   right: 21%;
 }
 
 .right-customers-images .img8 {
-  top: 95%;
+  top: 100%;
   right: 27%;
 }
 /* footer  */
@@ -803,31 +810,36 @@ footer {
   background-color: var(--brand-primary-color);
   background-image: url("Images/footer-left-image.png");
   background-repeat: no-repeat;
-  background-size: min(12%, 15rem) auto;
+  background-size: contain auto;
   background-position: left bottom;
 }
 
 /* logo and link container  */
 .logo-links-container {
+  padding: 3.75rem 10px;
+  border-bottom: 2px solid #cfb6e226;
+  width: min(1120px, 100%);
   display: flex;
   justify-content: center;
-  gap: 3.75rem;
-  padding: 3.75rem 0;
-  width: 50vw;
-  margin-inline: auto;
-  border-bottom: 2px solid #cfb6e226;
-  width: min(1020px, 100%);
-  margin-inline: auto;
+  margin: auto;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-brand-logo,
+.nav-footer-links,
+.add-mail-container,
+.tel-social-container {
+  width: 15.3rem;
+  height: auto;
 }
 
 /* footer logo  */
 .footer-brand-logo {
-  /* margin: auto; */
   margin: auto 0;
 }
 .footer-brand-logo a {
   display: flex;
-  justify-content: center;
   align-items: center;
   text-decoration: none;
 }

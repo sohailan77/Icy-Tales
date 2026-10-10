@@ -92,6 +92,10 @@
 /* main  */
 /* section product */
 
+.products-section {
+  padding-inline: 1.5rem;
+}
+
 .products-section .product-title {
   text-align: center;
   margin-top: 3.12rem;
@@ -115,16 +119,18 @@
   color: var(--text-secondary-color);
 }
 
+/* menu products container  */
 .products-container {
   width: min(1020px, 100%);
+  margin-inline: auto;
   display: flex;
   justify-content: center;
-  margin: auto;
-  gap: 1.87rem;
+  gap: 2.5rem;
   margin-top: 3.75rem;
   flex-wrap: wrap;
 }
 
+/* menu products  */
 .product {
   display: flex;
   flex-direction: column;
@@ -224,7 +230,7 @@
 .product button:hover {
   background-color: var(--brand-primary-color);
 
-  i{
+  i {
     padding-left: 0.62rem;
   }
 }

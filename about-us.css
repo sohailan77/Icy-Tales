@@ -93,39 +93,51 @@
 /* about us section  */
 
 .about-us-section {
-  width: min(1520px, 100%);
-  margin-inline: auto;
-}
-
-.about-mission-banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 4rem;
-  background-color: var(--brand-primary-color);
   margin-bottom: 6.25rem;
-
 }
 
 .section-heading {
   margin: 3.12rem 0;
+  padding-inline: 1.5rem;
 }
 
 .section-heading h2 {
   text-align: center;
   font-family: var(--font-family-primary);
-  font-size: 3.2rem;
+  font-size: 3.2rem; 
   font-weight: normal;
   color: var(--text-primary-color);
+}
+
+.about-mission-banner {
+  width: min(1520px, 100%);
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-color: var(--brand-primary-color);
 }
 
 .about-content-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
   padding-left: 10rem;
   gap: 1.87rem;
   width: 45%;
+  padding-left: 5rem;
+}
+
+.banner-right-image {
+  display: flex;
+  justify-content: flex-end;
+  width: 55%;
+}
+.banner-right-image img {
+  width: 100%;
+  display: block;
 }
 
 .about-content-text h3 {
@@ -142,17 +154,6 @@
   color: #ffffff;
   line-height: 1.37rem;
   font-weight: normal;
-}
-
-.banner-right-image {
-  width: 55%;
-   height: auto;
-   display: block;
-}
-.banner-right-image img {
-  width: 100%;
-   height: auto;
-   display: block;
 }
 
 .about-content-text button {
@@ -177,7 +178,7 @@ button i {
 .about-content-text button:hover {
   background-color: #632791;
 
-  i{
+  i {
     padding-left: 0.85rem;
   }
 }
@@ -185,9 +186,8 @@ button i {
 /* main stats section  */
 
 .stats-section {
-  width: min(1520px, 100%);
-  margin-inline: auto;
   padding-bottom: 3.75rem;
+  padding-inline: 1.5rem;
 }
 
 .stats-section .stats-title {
@@ -216,7 +216,7 @@ button i {
   width: min(1020px, 100%);
   display: flex;
   justify-content: center;
-  margin: auto;
+  margin-inline: auto;
   gap: 1.25rem;
   margin-top: 3.75rem;
   padding-bottom: 3.12rem;
@@ -252,16 +252,12 @@ button i {
   color: var(--text-secondary-color);
 }
 
-
-
-/* main */ 
+/* main */
 /* team section  */
 
-
 .team-section {
-  width: min(1520px, 100%);
-  margin-inline: auto;
-  padding: 3.75rem 0 10rem 0;
+  padding-top: 3.75rem;
+  padding-inline: 1.5rem;
 }
 
 .team-section .team-title {
@@ -286,30 +282,31 @@ button i {
   color: var(--text-secondary-color);
 }
 
-
 .team-members {
+  width: min(1520px, 100%);
+  margin-inline: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3.12rem;
   margin-top: 3.12rem;
+  flex-wrap: wrap;
 }
- 
+
 .member {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .member img {
-  width: min(15vw, 31.25rem);
-
+  width: 14rem;
+  height: 14rem;
 }
 
 .member-info {
   text-align: center;
-  /* width: ; */
 }
 
 .member span {

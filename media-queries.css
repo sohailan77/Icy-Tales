@@ -1,16 +1,16 @@
 @media screen and (max-width: 1225px) {
   html {
-    font-size: 85%;
+    font-size: 90%;
   }
 }
 @media screen and (max-width: 1022px) {
   html {
-    font-size: 80%;
+    font-size: 85%;
   }
 }
 @media screen and (max-width: 900px) {
   html {
-    font-size: 120%;
+    font-size: 110%;
   }
 
   header .navbar {
@@ -52,26 +52,51 @@
 
   .hero-container {
     flex-direction: column;
-    justify-content: center;
     gap: 3rem;
   }
 
- 
   .section1-heading {
     width: 100%;
-    align-items: flex-start;
   }
 
   /* hero section image  */
   .right-hero-product-image {
     width: 100%;
-    align-items: flex-end;
+  }
+
+  /* offer banner section  */
+  .offer-banner {
+    flex-direction: column;
+    gap: 3rem;
+    /* padding:40px 40px 10px 40px; */
+  }
+
+  /* offer text  */
+  .center-content {
+    width: 100%;
+  }
+
+  /* offer product image  */
+  .offer-product-left-image {
+    width: 100%;
+  }
+
+  .offer-product-right-image {
+    width: 100%;
+  }
+
+  .offer-product-right-image img {
+    width: 100%;
   }
 
   .customers-reviews-container {
-    margin-inline: 1.5rem;
-    background-position: top 10.75rem center;
+    margin-inline: 20px;
+    background-position: top 80px center;
     background-size: 30% auto;
+  }
+
+  .testimonial-card {
+    margin-inline: 10px;
   }
   .customers-reviews-container img {
     width: 4.25rem;
@@ -85,52 +110,33 @@
     margin: 2rem 0;
   }
 
-  /* .left-customers-images .img1 {
-    top: 0%;
-    left: 6%;
-  }
+  /* About us banner */
 
-  .left-customers-images .img2 {
-    top: 35%;
-    left: 12%;
+  .about-mission-banner {
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 1.5rem;
   }
-
-  .left-customers-images .img3 {
-    top: 60%;
-    left: 4%;
-  }
-
-  .left-customers-images .img4 {
-    top: 85%;
-    left: 23%;
-  }
-
-  .right-customers-images .img5 {
-    top: 0%;
-    right: 20%;
-  }
-
-  .right-customers-images .img6 {
-    top: 21%;
-    right: 5%;
-  }
-
-  .right-customers-images .img7 {
-    top: 48%;
-    right: 15%;
-  }
-
-  .right-customers-images .img8 {
-    top: 91%;
-    right: 25%;
-  } */
 
   .about-content-text {
-    padding-left: 5rem;
+    width: 100%;
+  }
+
+  /* hero section image  */
+  .banner-right-image {
+    width: 100%;
+  }
+  .banner-right-image img {
+    width: 60%;
+  }
+
+  .about-content-text {
+    padding-inline: 1.5rem;
     gap: 1rem;
   }
 }
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 658px) {
   html {
     font-size: 120%;
   }
@@ -181,5 +187,11 @@
 
   .right-hero-product-image {
     align-self: flex-end;
+  }
+
+  .footer-brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
