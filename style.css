@@ -103,7 +103,6 @@ html {
 body {
   background: var(--background-header-color);
   background-attachment: fixed;
-  overflow-x: hidden;
 }
 
 
@@ -116,7 +115,6 @@ body {
 header {
   background: var(--background-header-color);
   box-shadow: var(--header-bottom-shadow);
-  /* margin-bottom: 40px; */
   position: sticky;
   top: 0px;
   z-index: 999;
