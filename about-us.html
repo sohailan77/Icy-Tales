@@ -29,7 +29,7 @@
 <body class="">
     <header>
         <div class="navbar">
-                
+
             <div class="logo-container">
                 <a href="#" class="nav-toggle" id="nav-toggle">
                     <i class="fa-solid fa-bars"></i>
@@ -80,6 +80,9 @@
                             <i class="fa-solid fa-arrow-right"></i>
                         </button>
                     </div>
+                    <button id="mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -145,15 +148,13 @@
                     <div class="member-image">
                         <img src="Images/about-images/team-member1.png" alt="img">
                     </div>
-                        <span>Marvin Joner</span>
-                        <p>Bakery Worker</p>
-                        <div class="social-links">
-                            <a href="#" class="team-social-link" aria-label="Facebook"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="team-social-link" aria-label="Instagram"><i
-                                    class="fab fa-instagram"></i></a>
-                            <a href="#" class="team-social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        </div>
+                    <span>Marvin Joner</span>
+                    <p>Bakery Worker</p>
+                    <div class="social-links">
+                        <a href="#" class="team-social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="team-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="team-social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
                 <div class="member">
                     <div class="member-image">
@@ -275,17 +276,7 @@
 
         </div>
     </footer>
-
-    <script>
-        const toggleButton = document.getElementById('nav-toggle');
-        const anchortags = document.getElementById('anchortags');
-
-        toggleButton.addEventListener('click', () => {
-            anchortags.classList.toggle('onclick');
-        })
-
-
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
