@@ -498,7 +498,7 @@ h1 .Small-welcome-text {
 
 .heart-icon i {
   font-size: 0.9rem;
-  color: var(--icons-bg-color);
+  color: var(--brand-secondary-color);
 }
 
 /* product details  */
@@ -555,9 +555,12 @@ h1 .Small-welcome-text {
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
+  padding: 0.3rem;
   color: #ffffff;
   background-color: var(--brand-primary-color);
 }
+
+
 
 /* main promo banner section  */
 .promo-banner {
