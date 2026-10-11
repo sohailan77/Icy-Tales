@@ -183,6 +183,13 @@
     font-size: 0.7rem;
     margin-left: 0.4rem;
   }
+  .hero-section {
+    background-size: 40% auto;
+  }
+
+  .footer-container {
+    background-size: 40% auto;
+  }
 }
 @media screen and (max-width: 534px) {
   html {
