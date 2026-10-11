@@ -49,52 +49,32 @@
   --footer-secondary-text-color: #cfb6e2;
 }
 
-.dark {
-  /* Brand */
-  --brand-primary-color: #4a235a;
-  --brand-secondary-color: #9b3f78;
-
-  /* Product / Cards */
-  --product-container: #151317;
-
-  /* Text */
-  --text-primary-color: #e6e1e8;
-  --text-primary-color-hover: #c45a9a;
-  --text-secondary-color: #858087;
-
-  /* Background */
-  --background-primary-color: #080709;
-
-  /* Header */
-  --background-header-color: #16101a;
-
-  --header-bottom-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-
-  /* Buttons */
-  --button-primary-color: #4a235a;
-  --button-secondary-color: #9b3f78;
-  --button-primary-color-hover: #e6e1e8;
-  --button-secondary-color-hover: #e6e1e8;
-
-  /* Icons */
-  --icons-bg-color: #9b3f78;
-
-  /* Footer Icons */
-  --footer-icons-bg-color: #ffffff10;
-  --footer-icons-bg-color-hover: #ffffff18;
-
-  /* Shadows */
-  --shadow-sign-up: 0 4px 18px rgba(155, 63, 120, 0.16);
-  --shadow-browse: 0 4px 18px rgba(155, 63, 120, 0.16);
-  --shadow-read-more: 0 4px 18px rgba(155, 63, 120, 0.08);
-
-  --shadow-product-card-container: inset 0 2px 40px rgba(0, 0, 0, 0.75);
-
-  /* Footer */
-  --footer-primary-text-color: #e6e1e8;
-  --footer-secondary-text-color: #858087;
+body.dark {
+  --brand-primary-color: #9b6dcc;
+  --brand-secondary-color: #e85d9e;
+  --product-container: #17151a;
+  --text-primary-color: #f5f2f7;
+  --text-primary-color-hover: #e85d9e;
+  --text-secondary-color: #aaa5ad;
+  --background-primary-color: linear-gradient(90deg, #0d0b0f 0%, #121016 30%, #0e0d11 60%, #121014 100%);
+  --background-header-color: #151218;
+  --header-bottom-shadow: 0px 4px 20px rgba(0, 0, 0, 0.35);
+  --button-primary-color: #9b6dcc;
+  --button-secondary-color: #e85d9e;
+  --button-primary-color-hover: #ffffff;
+  --button-secondary-color-hover: #ffffff;
+  --icons-bg-color: #25202a;
+  --footer-icons-bg-color: #ffffff12;
+  --footer-icons-bg-color-hover: #ffffff20;
+  --shadow-sign-up: 0px 4px 18px rgba(232, 93, 158, 0.18);
+  --shadow-browse: 0px 4px 18px rgba(155, 109, 204, 0.18);
+  --shadow-read-more: 0px 4px 18px rgba(232, 93, 158, 0.12);
+  --shadow-product-card-container: inset 0px 2px 40px rgba(0, 0, 0, 0.35);
+  --font-family-primary: "Berkshire Swash", serif;
+  --font-family-secondary: "Archivo", sans-serif;
+  --footer-primary-text-color: #f5f2f7;
+  --footer-secondary-text-color: #b9a8c7;
 }
-
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
