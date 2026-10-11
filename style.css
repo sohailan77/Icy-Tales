@@ -98,13 +98,11 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-
 }
 body {
   background: var(--background-header-color);
   background-attachment: fixed;
 }
-
 
 /* Style for the current/active page link */
 .nav-container ul li .active {
@@ -206,7 +204,7 @@ header .navbar {
 
 .searct-cart-container {
   display: flex;
-  margin: 0 1.9rem 0 1.9rem;
+  margin: 0 0.9rem 0 0.9rem;
 }
 
 .search-icon,
@@ -259,9 +257,22 @@ header .navbar {
   }
 }
 
+/* Light/Dark Mode Switch button  */
+
+.action-container button {
+  color: white;
+  background-color: var(--brand-primary-color);
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 0.7rem;
+}
+
 /* main  */
 /* hero part */
-
 
 .hero-section {
   padding-inline: 1.5rem;

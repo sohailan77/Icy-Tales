@@ -159,6 +159,10 @@
     font-size: 100%;
   }
 
+  header .navbar {
+    padding-inline: 1rem;
+  }
+
   .nav-container ul li a {
     font-size: 1rem;
   }
@@ -166,6 +170,18 @@
   .banner-right-image img {
     width: 90%;
     min-width: 300px;
+  }
+
+  .signup .signup-btn {
+    padding: 0.6rem 1.3rem;
+    border-radius: 2.5rem;
+    font-size: 0.7rem;
+  }
+
+  .action-container button {
+    padding: 0.6rem;
+    font-size: 0.7rem;
+    margin-left: 0.4rem;
   }
 }
 @media screen and (max-width: 534px) {
@@ -177,18 +193,24 @@
     font-size: 1rem;
   }
   .searct-cart-container {
-    margin: 0 1rem 0 1rem;
+    margin: 0 0.5rem 0 1rem;
   }
 
   .signup .signup-btn {
-    padding: 0.7rem 1.2rem;
+    padding: 0.6rem 1.1rem;
     border-radius: 2.5rem;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
   .signup .signup-btn i {
     padding-left: 0.21rem;
     transition: all 0.2s ease-in-out;
+  }
+
+  .action-container button {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    margin-left: 0.4rem;
   }
 
   .right-hero-product-image img {
@@ -226,6 +248,11 @@
   .signup .signup-btn i {
     display: none;
   }
+  .action-container button {
+    padding: 0.55rem;
+    font-size: 0.7rem;
+    margin-left: 0.4rem;
+  }
 
   .customers-reviews-container img {
     width: 2.5rem;
@@ -235,7 +262,7 @@
     font-size: 0.85rem;
   }
 
-   .right-hero-product-image img {
+  .right-hero-product-image img {
     width: 90%;
   }
 
@@ -246,17 +273,15 @@
   .offer-product-right-image img {
     width: 50%;
   }
-.member img {
+  .member img {
     width: 12rem;
     height: 12rem;
-}
+  }
 }
 @media screen and (max-width: 362px) {
   html {
     font-size: 50%;
   }
-
- 
 }
 @media screen and (max-width: 204px) {
   html {
